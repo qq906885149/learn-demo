@@ -1,6 +1,7 @@
 package dailimoshi;
 
 /**
+ * 简单，最基础的代理模式
  * @Auther : ChenZhongChuang
  * @Date : 2019/9/7 14:02
  * @Descoription :

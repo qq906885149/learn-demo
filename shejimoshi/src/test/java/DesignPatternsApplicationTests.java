@@ -1,4 +1,5 @@
 
+import guanchazhemoshi.Demo2_Spring;
 import guanchazhemoshi.config.MyEvent;
 import guanchazhemoshi.config.MyListenerA;
 import guanchazhemoshi.config.MyListenerB;
@@ -29,7 +30,7 @@ public class DesignPatternsApplicationTests {
     private MyEvent myEvent;
 
     @Test
-    public void contextLoads() {myPublisher.publisherEvent(myEvent);
-
+    public void contextLoads() {
+        new Demo2_Spring().test(myPublisher, myEvent);
     }
 }

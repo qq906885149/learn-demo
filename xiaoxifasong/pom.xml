@@ -22,8 +22,8 @@
             </plugin>
         </plugins>
     </build>
-    <artifactId>shejimoshi</artifactId>
+    <artifactId>xiaoxifasong</artifactId>
     <packaging>jar</packaging>
-    <name>设计模式</name>
+    <name>消息发送</name>
 
 </project>

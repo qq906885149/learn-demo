@@ -1,5 +1,8 @@
 package guanchazhemoshi;
 
+import guanchazhemoshi.config.MyEvent;
+import guanchazhemoshi.config.MyPublisher;
+
 /**
  * 观察者模式是spring常用的一种设计模式
  *  @see org.springframework.context.ApplicationEvent：事件  继承自 jdk 的 {@link java.util.EventObject}
@@ -62,10 +65,13 @@ public class Demo2_Spring {
      *  {@link org.springframework.context.ApplicationEventPublisher}
      * @Auther : CHENZC
      * @Date : 2019/9/8 11:06
-     * @Param
+     * @Param myPublisher
+     * @param myEvent
      * @Return
      */
-
+    public void test(MyPublisher myPublisher, MyEvent myEvent){
+        myPublisher.publisherEvent(myEvent);
+    }
 
 
 }
